@@ -1,0 +1,238 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2021, 10:06:18 PM
+    Author     : ahmed
+*/
+
+.hr,
+.min,
+.sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4vmin;
+  grid-row: 1/2;
+  align-items: start;
+}
+.number {
+  user-select: none;
+  width: 8vmin;
+  height: 8vmin;
+  display: grid;
+  place-items: center;
+  color: #f9fbfd;
+  transition: all 500ms 100ms ease;
+  border-radius: 50%;
+}
+.number.pop {
+  color: #3e6ccb;
+  font-weight: bold;
+  transform: scale(1.3);
+  background-color: #dfe6f6;
+  box-shadow: -1vmin -1vmin 2vmin -0.5vmin #f9fbfd, 1vmin 1vmin 2vmin #a9bee8;
+}
+.strip {
+  transition: transform 500ms ease-in-out;
+  border-radius: 1.333333333333333vmin;
+  background-color: #dfe6f6;
+  box-shadow: -1vmin -1vmin 2vmin -0.5vmin #f9fbfd, 1vmin 1vmin 2vmin #a9bee8;
+}
+.clock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8vmin;
+  height: 4vmin;
+  position: relative;
+  padding: 0 4vmin;
+}
+.animation-box {
+  width: 75%;
+  height: 27.5rem;
+  background-color: blue;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 30rem;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+  
+}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+.first-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-duration: 5s;
+  color: white;
+}
+
+.second-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 8.5rem;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 3s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  color: #ccc;
+}
+.btn:hover, .btn:focus{
+    outline: none;
+    color:#fff;
+}
+.btn{
+    color:#fff;
+    text-transform: capitalize;
+    position: relative;
+    top:0;
+}
+.btn:hover{
+    color:#fff;
+}
+.btn:active{
+    top:2px;
+}
+.blue{
+    background: #55acee;
+    box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+.blue:hover{
+    background: #6fc6ff;
+}
+.blue:active{
+    box-shadow:0 2px 0 #3c93d5;
+}
+.green{
+    background: #2ecc71;
+    box-shadow: 0px 5px 0px 0px #15B358;
+}
+.green:hover{
+    background: #48e68b;
+}
+.green:active{
+    box-shadow:0 2px 0 #15b358;
+}
+.red{
+    background: #e74c3c;
+    box-shadow: 0px 5px 0px 0px #ce3323;
+}
+.red:hover{
+    background: #ff6656;
+}
+.red:active{
+    box-shadow:0 2px 0 #ce3323;
+}
+.purple{
+    background: #9b59b6;
+    box-shadow: 0px 5px 0px 0px #82409d;
+}
+.purple:hover{
+    background: #b573d0;
+}
+.purple:active{
+    box-shadow:0 2px 0 #82409d;
+}
+.buttons{
+    padding-top: 3.5%;
+    padding-left: 24.5%;
+}
+.sub{
+    padding-left: 43%;
+    padding-top: 3%;
+}

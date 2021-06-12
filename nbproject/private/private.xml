@@ -3,8 +3,30 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/ahmed/NetBeansProjects/Whos_Not_Here_Today/web/mark.jsp</file>
-            <file>file:/home/ahmed/NetBeansProjects/Whos_Not_Here_Today/web/dashboard.jsp</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/web/index.jsp</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/web/markdone.jsp</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/web/send_email.jsp</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/LogInValidation.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/web/select_mark.jsp</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/Attendance.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/Modify.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/View.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/web/compose_email.jsp</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/SetAttendance.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/web/view.jsp</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/Course.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/web/modify.jsp</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/SetClass.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/web/forgot_password.jsp</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/Student.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/web/dashboard.jsp</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/EmailToClass.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/Timetable.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/Teacher.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/MarkAttendance.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/ChangeStatus.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/src/java/Database.java</file>
+            <file>file:/home/ahmed/Documents/Whos_Not_Here_Today/web/mark.jsp</file>
         </group>
     </open-files>
 </project-private>

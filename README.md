@@ -12,4 +12,14 @@ Who’s Not Here Today is an easy-to-use online tool for teachers to mark their 
 - Viewing previously marked classes of attendance
 - Only using HTML, CSS, JavaScript, some JQuery and JSP.
 
+##Login
 ![Login](/sample/jr1.jpg)
+![Forgot_Password](/sample/jr2.jsp)
+##Mark
+![Mark_Attendance](/sample/j2_1.jpg)
+![Mark_Attendance](/sample/j3_1.jpg)
+![Mark_Attendance](/sample/j5_1.jpg)
+![Mark_Attendance](/sample/j6_1.jpg)
+![Mark_Attendance](/sample/j7.jpg)
+##Database
+![Database](/sample/db.jpg)
